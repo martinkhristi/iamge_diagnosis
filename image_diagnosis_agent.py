@@ -6,7 +6,7 @@ import base64
 # Function to decode API key
 def get_api_key():
     # Encoded API key (encode your key first using base64)
-    encoded_key = "QUl6YVN5Q05DdHp5ZFZSVTV0VWNkWl9PaDRVNG5lUFVxenFCZncw"  # This is just an example
+    encoded_key = "gemini api key"  # This is just an example
     return base64.b64decode(encoded_key).decode('utf-8')
 
 # Function to initialize the model
